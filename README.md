@@ -4,7 +4,7 @@ Portfolio "coming soon" landing page built with React.js and Tailwind CSS.
 
 ## Live Demo
 
-[View Live Demo](portfolio-coming-soon-peach.vercel.app) *(We'll update this after deployment)*
+[View Live Demo](https://portfolio-coming-soon-peach.vercel.app)
 
 ## Features
 
