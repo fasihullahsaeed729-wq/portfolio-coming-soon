@@ -24,21 +24,7 @@ Portfolio "coming soon" landing page built with React.js and Tailwind CSS.
 
 ## Installation
 
-1. Clone the repository
+Clone the repository
    ```bash
    git clone https://github.com/fasihullahsaeed729-wq/portfolio-coming-soon.git
 
-## Structure
-
-   src/
-├── components/
-│   ├── subComponents/
-│   │   ├── Countdown.jsx
-│   │   ├── EmailForm.jsx
-│   │   └── Logo.jsx
-│   ├── Header.jsx
-│   ├── Hero.jsx
-│   └── Footer.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
