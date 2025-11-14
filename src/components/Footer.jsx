@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="text-center">
           <div className="flex justify-center mb-6">
-            <Logo/>
+            <Logo size="md" showText={true} />
           </div>
           
           <p className="text-gray-400 mb-8 max-w-md mx-auto">
