@@ -30,10 +30,10 @@ const Countdown = () => {
 
   const TimeBox = ({ value, label }) => (
     <div className="text-center">
-      <div className="text-4xl md:text-5xl font-bold text-white mb-2">
+      <div className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-100 mb-2">
         {value.toString().padStart(2, '0')}
       </div>
-      <div className="text-gray-400 text-sm uppercase tracking-widest">{label}</div>
+      <div className="text-gray-600 text-sm uppercase tracking-widest">{label}</div>
     </div>
   );
 

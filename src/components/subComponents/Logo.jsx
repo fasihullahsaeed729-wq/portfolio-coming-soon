@@ -9,12 +9,12 @@ const Logo = ({ size = 'md', showText = true }) => {
 
   return (
     <div className="flex items-center space-x-3">
-      <div className={`${sizeClasses[size]} bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg flex items-center justify-center`}>
-        <span className="text-black font-bold">IA</span>
+      <div className={`${sizeClasses[size]} bg-gradient-to-r from-blue-300 to-blue-600 rounded-lg flex items-center justify-center`}>
+        <span className="text-white font-bold">PC</span>
       </div>
       {showText && (
-        <span className={`${size === 'lg' ? 'text-2xl' : 'text-xl'} font-bold text-white`}>
-          Isba Noor Abbasi
+        <span className={`${size === 'lg' ? 'text-2xl' : 'text-xl'} font-bold text-blue-500`}>
+          Portfolio Creator
         </span>
       )}
     </div>
